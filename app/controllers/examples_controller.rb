@@ -3,7 +3,7 @@ class ExamplesController < ApplicationController
 
   # GET /examples or /examples.json
   def index
-    @examples = Example.all
+    @examples = []
   end
 
   # GET /examples/1 or /examples/1.json
